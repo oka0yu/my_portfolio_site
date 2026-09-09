@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conetnt="width=device-width,initial-scale=1">
+    <title>Yuki Okamura Portfolio site</title>
+    <meta name="description"content="Yuki Okamuraのポートフォリオサイト">
+    <meta name="author" content="Yuki Okamura">
+    <meta name="keywords" content="岡村有希, OkamuraYuki, ポートフォリオサイト, Webデザイン">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+
+<!--ここからページの内容を書きます-->
+<body>
+    <div id="loading">
+        <img src="images/loading.png" alt="ローディング">
+        <div id="loading-screen"></div>        
+    </div> 
+    <div id="main-backimg"></div>
+    <div id="grid">
+        <!--ヘッダー-->  
+        <header id="header">
+            <div id="title"></div>
+            <nav id="g-nav">
+                <div class="Toggle"><span></span><span></span><span></span></div>
+                <div class="menu">
+                    <ul>
+                        <li><img src="images/icon_top.png" alt="topのアイコン"><a href="index.html">Top</a></li>
+                        <li><img src="images/icon_prof.png" alt="profileのアイコン"><a href="#sec01">Profile</a></li>
+                        <li><img src="images/icon_design.png" alt="designのアイコン"><a href="#sec02">Design Portfolio</a></li>
+                        <li><img src="images/icon_works.png" alt="worksのアイコン"><a href="#sec03">Works</a></li>
+                        <li><img src="images/icon_shop.png" alt="shopのアイコン"><a href="#sec04">Online Store</a></li>
+                        <li><img src="images/icon_meil.png" alt="meilのアイコン"><a href="#sec05">Contact</a></li>
+                    <ul>
+                </div>
+            </nav>
+        </header>
+        <!--メイン-->
+        <main id="main">
+            <section id="design-portfolio">
+                <div class="design-title"><h2>DESIGN PORTFOLIO</h2><img id="designportfolio-img" src="images/designportfolio.png"><p>- 04</p></div>
+                <img class="web-top" src="images/web_top.png" alt="レスポンシブデザイン">
+                <div class="text-conteiner">
+                    <ul>
+                        <li><span>架空のコーポレートサイト</span></li>
+                            <p>URL : <a href="https://tsunahiro.net"> tsunahiro.net </a></p>
+                        <li><span>制作期間</span></li>
+                            <p>2023.7.1〜2023.8.20 約110時間</p>
+                        <li><span>使用ソフト・サーバー</span></li>
+                            <p>Excel / Figma / Photoshop / Illustrater / Visual Studio Code / X server</p>
+                        <li><span>デザインコンセプト</span></li>
+                            <p>設定 : 訪問看護リハビリステーションのWebサイト制作依頼
+                            <br>目的 : 新規問い合わせ数を増やす
+                            <br>ペルソナ : 要介護認定を受けた者の家族
+                            <br>
+                            <br>訴求文言など : 
+                            <br>質の高い看護とリハビリテーション 、「家での生活を一緒に支えるチーム」、24時間看護師対応可能で安心できる、ケアマネージャー在籍で地域連携、豊富なリハビリ専門家の評価、必要に合わせてデイサービス(通所リハビリ・介護)やショートステイも(短期施設入所)ご案内でご本人らしい生活を
+                            <br>イメージ : シンプル、やわらかい、やさしい、さわやか</p>
+                        <li><span>コメント</span></li>
+                            <p>全体的なイメージはいくつかの参考サイトをもとに決定しました。高齢者や障害のある方、そのご家族が見ることが多いと思い、過度な装飾は避けて情報が入りやすいデザインを目指しました。</p>
+                    </ul>
+                </div>
+                <ul class="Pagination">
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages03.html">
+                            <svg xmlns="https://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+                            </svg>
+                        </a> 
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages01.html"><span>1</span></a>
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages02.html"><span>2</span></a>
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages03.html"><span>3</span></a>
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link isActive" href="portfolio_pages04.html"><span>4</span></a>
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages05.html"><span>5</span></a>
+                    </li>
+                    <li class="Pagination-Item">
+                        <a class="Pagination-Item-Link" href="portfolio_pages05.html">
+                            <svg xmlns="https://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!--フッター--> 
+            <footer id="footer">
+                <ul class="footer-nav">
+                    <li>
+                        <p><a href="#sec01">Profile</a></p>
+                        <ul class="footnav-child">
+                            <li><p><a href="index.html">Home</a></p></li>
+                            <li><p><a href="#sec01">Profile</a></p></li>
+                            <li><p><a href="#sec01">Career</a></p></li>
+                            <li><p><a href="#sec01">Certification</a></p></li>
+                            <li><p><a href="#sec01">Skill</a></p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#sec02">Design Portfolio</a></p>
+                        <ul class="footnav-child">
+                            <li><p><a href="portfolio_pages05.html" target="_blank">このポートフォリオサイト</a></p></li>
+                            <li><p><a href="portfolio_pages04.html" target="_blank">架空のコーポレートサイト</a></p></li>
+                            <li><p><a href="portfolio_pages03.html" target="_blank">架空の物産展バナー</a></p></li>
+                            <li><p><a href="portfolio_pages02.html" target="_blank">アイコン制作(知人依頼)</a></p></li>
+                            <li><p><a href="portfolio_pages01.html" target="_blank">知人が制作した3Dprint<br>フットウェアの一部パーツ</a></p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#sec03">Works</a></p>
+                        <ul class="footnav-child">
+                            <li><p><a href="works_page.html#works-photo" target="_blank">photo</a></p></li>
+                            <li><p><a href="works_page.html#works-artwork" target="_blank">artwork</a></p></li>
+                            <li><p><a href="works_page.html#works-music" target="_blank">music & lyrics</a></p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#sec04">Online Store</a></p>
+                        <p><a href="#sec05">Contact</a></p>   
+                        <p>SNS</p>              
+                        <div class="sns-btn">
+                            <a href="https://www.facebook.com/profile.php?id=61552574230541" target="_blank" rel="noopener noreferrer"><img src="images/icon_fb.png" alt="facebook"></a>
+                            <a href="https://twitter.com/oka0yuki" target="_blank" rel="noopener noreferrer"><img src="images/icon_X.png" alt="X" loading="lazy"></a>
+                        </div>
+                    </li>
+                </ul>
+                <p class="footer-copy"><small>&copy; yuki okamura all rights reserved.</small></p>
+            </footer> 
+        </main>
+    </div>
+</body>
+</html>
